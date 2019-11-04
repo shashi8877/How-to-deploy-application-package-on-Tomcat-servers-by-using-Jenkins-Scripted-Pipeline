@@ -1,6 +1,6 @@
 node {
         def mvnHome
-        mvnHome = tool 'Maven 3.5.2'
+        mvnHome = tool 'Maven 3.6.0'
         def servers = ["172.31.33.88"]
         try {
         stage('Preparation') { // for display purposes Get some code from a GitHub repository
