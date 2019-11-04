@@ -1,7 +1,7 @@
 node {
         def mvnHome
         mvnHome = tool 'Maven 3.6.0'
-        def servers = ["172.31.33.88"]
+        def servers = ["172.31.24.146"]
         try {
         stage('Preparation') { // for display purposes Get some code from a GitHub repository
             git 'https://github.com/vipin-k/spring-framework-petclinic.git'
